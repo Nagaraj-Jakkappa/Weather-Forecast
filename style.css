@@ -1,0 +1,97 @@
+/* Light Theme (default) */
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #222;
+  --card-bg: #fff;
+  --accent-color: #007bff;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --card-bg: #1e1e1e;
+  --accent-color: #00d8ff;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#theme-toggle {
+  font-size: 1.2rem;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.search-box {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+.weather-card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.weather-card img {
+  width: 80px;
+  height: 80px;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
