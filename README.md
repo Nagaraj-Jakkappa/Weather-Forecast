@@ -41,7 +41,7 @@ A fully responsive **Weather Forecast App** built with **HTML, CSS, and JavaScri
 ## 🛠️ Installation & How to Run
 Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/Weather-Forecast.git
+git clone https://github.com/Nagaraj-Jakkappa/Weather-Forecast.git
 cd Weather-Forecast
  ```
 Open index.html in your browser to run the app.
