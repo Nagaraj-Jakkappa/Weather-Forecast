@@ -78,4 +78,6 @@ Mobile app version for offline usage
 
 Nagaraj
 
-[GitHub](https://github.com/Nagaraj-Jakkappa)| [LinkedIn](https://www.linkedin.com/in/nagaraj-jakkappa)
+* [GitHub](https://github.com/Nagaraj-Jakkappa)
+* [LinkedIn](https://www.linkedin.com/in/nagaraj-jakkappa)
+* [Email](mailto:nagupoojary33@gmail.com)
